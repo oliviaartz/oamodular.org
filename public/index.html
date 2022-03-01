@@ -101,7 +101,7 @@
         data.forEach((product) => {
           const container = template.content.cloneNode(true);
 
-          container.querySelector('h2').innerText = product.name;
+          container.querySelector('h4').innerText = product.name;
           container.querySelector('.description').innerText =
             product.description;
           container.querySelector('.price').innerText = format(
