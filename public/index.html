@@ -105,10 +105,6 @@
           );
           container.querySelector('[name=sku]').value = product.sku;
 
-          const img = container.querySelector('img');
-          img.src = product.image;
-          img.alt = product.name;
-
           const form = container.querySelector('form');
           form.addEventListener('submit', handleSubmit);
 
