@@ -4,7 +4,7 @@
     "name": "Tele-touch 3 PCB Set",
     "description": "Top and bottom PCBs to build your own Tele-touch 3",
     "image": "https://generative-placeholders.glitch.me/image?width=600&height=600&style=triangles&gap=30",
-    "amount": 65,
+    "amount": 6500,
     "currency": "USD"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Tele-touch 3 Assembled",
     "description": "Fully assembled & tested Tele-touch with 1 year warranty",
     "image": "https://generative-placeholders.glitch.me/image?width=600&height=600&style=triangles&gap=20",
-    "amount": 220,
+    "amount": 22000,
     "currency": "USD"
   }
 ]
