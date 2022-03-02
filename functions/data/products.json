@@ -1,7 +1,7 @@
 [
   {
     "sku": "DEMO001",
-    "name": "Tele-touch 3 PCB Set",
+    "name": "Tele-touch 3 ~ PCB Set",
     "description": "Top and bottom PCBs to build your own Tele-touch 3",
     "image": "https://generative-placeholders.glitch.me/image?width=600&height=600&style=triangles&gap=30",
     "amount": 6500,
@@ -9,7 +9,7 @@
   },
   {
     "sku": "DEMO002",
-    "name": "Tele-touch 3 Assembled",
+    "name": "Tele-touch 3 ~ Assembled",
     "description": "Fully assembled & tested Tele-touch with 1 year warranty",
     "image": "https://generative-placeholders.glitch.me/image?width=600&height=600&style=triangles&gap=20",
     "amount": 22000,
