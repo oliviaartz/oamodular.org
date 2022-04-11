@@ -13,9 +13,21 @@
       <p><strong>Olivia Artz Modular</strong> is a place for art-objects created by trans artists. We’re currently focused on eurorack modules and other instruments.</p>
       <p><img src="https://generative-placeholders.glitch.me/image?width=600&height=300&style=123" width="90%" /></p>
       <p><img src="https://generative-placeholders.glitch.me/image?width=600&height=300&style=cubic-disarray" width="90%" /></p>
-      <p>Tele-touch is an expressive performance instrument designed for Monome’s popular Teletype platform. Gesture and nuance can be difficult to incorporate into modular performance. Tele-touch addresses this with beautiful copper touch-plates and high quality sliders. Buttons allow for mode-switching and triggering, making Tele-touch a natural place to control your system</p>
-      <p>Cycling 74’s Max and many I2C devices can also communicate with Tele-touch. [NEED MORE HERE]</p>
-      <p>Tele-touch 3 is available as a pair of PCBs for you to assemble or as a fully assembled and tested instrument.</p>
+      <h2>Tele-touch is an expressive performance instrument designed primarily for the Monome Teletype and Norns systems.</h2>
+<p>Inspired by the long history of touch plate surfaces in synthesis, Tele-touch finds ways to add gesture and manual control to modular instruments.</p>
+<p>An all in one human interface, the copper touch plates output both note and pressure information, over both I2C (duophonically) and USB MIDI (fully polyphonically), the 8 buttons allow for mode-switching, event triggering and midi note drones, and the 4 knobs and 6 sliders add midi cc output and physical control over teletype variables, making Tele-touch a natural centre of control in your system.</p>
+<p>While over MIDI, the keypresses and cc messages are fairly pre-defined, teletype can be processing I2C messages in a whole range of ways! Try using the sliders to define values in a 6 step sequence. Use the key pressure value to control the rate of a clock! Use the touch plates to jump between different sets of sequenced patterns! Tele-touch turns teletype into an incredibly performable device.</p>
+<p>While Teletype and Norns were the primary inspiration for Tele-touch, its I2C outputs can be read by any I2C host, such as monome crow, which expands possibilities further to interaction with Cycling 74’s Max MSP, while its behaviour as a class compliant USB device lets all its knobs, buttons, sliders and touch plates work perfectly with any computer or other midi host.</p>
+<p><em>*Please note: while Tele-touch has gate outs, it is not designed for direct intergration as a cv controller. These gate outs are instead there to be patced directly into Teletype trigger inputs.</em></p>
+<p><em>Anyone with a Teletype will know that the constant fast polling necessary for an I2C device to trigger note on messages is unviable. Tele-touch gets around this by providing physical triggers. When a keypress is detected, Tele-touch will physically trigger a Teletype script, which can then immediately read the note value of tele-touch. This way, Tele-touch can be extremely responsive, even over I2C.</em></p>
+
+<p><strong>Tele-touch 3 is available as a pair of PCBs that can be assembled using the following:
+  <ul>
+    <li>Build guide</li>
+    <li>BOM</li>
+    <li>Firmware download</li>
+  </ul>
+</strong></p>
       <section class="products"></section>
     </main>
 
